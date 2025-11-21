@@ -22,7 +22,7 @@ This repository demonstrates [Kagent](https://kagent.dev/) running on a local Ku
    The following `.env.example` files are available to guide you on required environment variables:
 
    - `manifests/kagent/.env.example`: Contains `OPENAI_API_KEY` for the main kagent configuration.
-   - `manifests/kagent/mcp/.env.example`: Contains `GH_PAT` for the GitHub MCP server and `CONTEXT7_API_KEY` for the Context7 MCP server.
+   - `manifests/kagent/mcp/.env.example`: Contains `GITHUB_PERSONAL_ACCESS_TOKEN` for the GitHub MCP server, `CONTEXT7_API_KEY` for the Context7 MCP server, and `BRAVE_API_KEY` for the Brave Search MCP server.
 
 2. Stand up the demo:
 
